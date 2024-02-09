@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.862);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board {
+  margin-top: 40px;
+  width: 800px;
+  aspect-ratio: 1/1;
+  background-color: rgba(240, 230, 140, 0.18);
+  border-radius: 5px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  position: relative;
+}
+.white {
+  background-color: rgb(240, 217, 181);
+  width: 100px;
+  aspect-ratio: 1/1;
+  transition: 0.9s;
+}
+.white:hover,
+.black:hover {
+  opacity: 0.8;
+}
+.black {
+  background-color: rgb(181, 136, 99);
+  width: 100px;
+  aspect-ratio: 1/1;
+  transition: 0.9s;
+}
+.piece {
+  position: absolute;
+  width: 100px;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}
