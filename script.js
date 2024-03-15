@@ -11,6 +11,8 @@ for (let i = 0; i < 8; i++) {
   }
 }
 
+// pieces class
+
 class Piece {
   constructor(name, color, row, rank, image) {
     this.name = name;
