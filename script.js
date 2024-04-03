@@ -11,7 +11,7 @@ for (let i = 0; i < 8; i++) {
   }
 }
 
-// piece classsss
+// piece classss
 
 class Piece {
   constructor(name, color, row, rank, image) {
